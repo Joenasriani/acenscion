@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrthographicCamera, Environment, ContactShadows, useCursor, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
-import { LevelData, BlockType, Vector3, BlockData } from '../types';
-import Character from './Character';
-import { playStep, playRotate, playWin, playSlide } from '../services/audioService';
+import { LevelData, BlockType, Vector3, BlockData } from '../types.ts';
+import Character from './Character.tsx';
+import { playStep, playRotate, playWin, playSlide } from '../services/audioService.ts';
 
 // --- Constants ---
 const SLIDER_HEIGHT = 2; // How high a slider moves

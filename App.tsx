@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { LEVELS } from './constants';
-import GameScene from './components/GameScene';
-import { generateReflection } from './services/geminiService';
-import { initAudio } from './services/audioService';
+import { LEVELS } from './constants.ts';
+import GameScene from './components/GameScene.tsx';
+import { generateReflection } from './services/geminiService.ts';
+import { initAudio } from './services/audioService.ts';
 
 const App: React.FC = () => {
   const [currentLevelIdx, setCurrentLevelIdx] = useState(0);
@@ -19,6 +19,7 @@ const App: React.FC = () => {
   // Initialize Music
   useEffect(() => {
     // Corrected path to 'music/thelittlehero.mp3'
+    // Ensure this file exists in your repository or the audio will fail silently
     const audio = new Audio('music/thelittlehero.mp3');
     audio.loop = true;
     audio.volume = 0.3; 

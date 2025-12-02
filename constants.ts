@@ -1,4 +1,4 @@
-import { LevelData, BlockType } from './types';
+import { LevelData, BlockType } from './types.ts';
 
 export const THEMES = {
   1: { bg: "#FFDEE9", fog: "#FFDEE9", stone: "#FFFFFF", accent: "#574b90", path: "#f78fb3", wheel: "#ff6b81" },

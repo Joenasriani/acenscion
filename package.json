@@ -9,12 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "three": "0.161.0",
-    "@react-three/drei": "9.102.0",
-    "@react-spring/three": "9.7.3",
-    "@react-three/fiber": "8.15.16"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@react-three/fiber": "^9.4.2",
+    "@react-three/drei": "^10.7.7",
+    "three": "^0.181.2"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
