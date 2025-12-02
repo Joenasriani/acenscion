@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { Vector3 } from '../types.ts';
+import { Vector3 } from '../types';
 
 interface CharacterProps {
   position: Vector3;
